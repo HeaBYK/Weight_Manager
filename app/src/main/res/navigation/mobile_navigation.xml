@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_info">
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.weight_manager.ui.info.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/activity_change" />
+
+    <fragment
+        android:id="@+id/nav_bmiSimulator"
+        android:name="com.example.weight_manager.ui.bmisimulator.BmiFragment"
+        android:label="@string/menu_bmiSimulator"
+        tools:layout="@layout/fragment_bmisimulator" />
+
+    <fragment
+        android:id="@+id/nav_workKcal"
+        android:name="com.example.weight_manager.ui.workkcal.WorkKcalFragment"
+        android:label="@string/menu_workKcal"
+        tools:layout="@layout/fragment_workkcallist" />
+    <fragment
+        android:id="@+id/nav_weightGraph"
+        android:name="com.example.weight_manager.ui.weightlist.ListFragment"
+        android:label="@string/menu_weightGraph"
+        tools:layout="@layout/fragment_weightlist" />
+
+    <fragment
+        android:id="@+id/nav_videoView"
+        android:name="com.example.weight_manager.ui.videoview.VideoViewFragment"
+        android:label="@string/menu_videoView"
+        tools:layout="@layout/fragment_videoview" />
+</navigation>

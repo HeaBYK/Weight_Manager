@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2EBEF"
+    android:orientation="vertical"
+    android:paddingTop="1dp"
+    tools:context=".ui.videoview.VideoViewFragment">
+
+    <ExpandableListView
+        android:id="@+id/elvMyListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

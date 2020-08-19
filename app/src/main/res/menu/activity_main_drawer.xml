@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_main"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_bmiSimulator"
+            android:icon="@drawable/ic_menu_bmisimul"
+            android:title="@string/menu_bmiSimulator" />
+        <item
+            android:id="@+id/nav_weightGraph"
+            android:icon="@drawable/ic_menu_graph"
+            android:title="@string/menu_weightGraph" />
+        <item
+            android:id="@+id/nav_workKcal"
+            android:icon="@drawable/work_png"
+            android:title="@string/menu_workKcal" />
+        <item
+            android:id="@+id/nav_videoView"
+            android:icon="@drawable/youtube"
+            android:title="@string/menu_videoView" />
+    </group>
+</menu>
